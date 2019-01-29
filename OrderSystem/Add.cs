@@ -28,7 +28,7 @@ namespace RestaurantOrderSystem
         //form load to set tips for input
         private void Add_Load(object sender, EventArgs e)
         {
-            label1.Select();
+           
             toolTip1.SetToolTip(txtName, "The dish name cannot be blank and should be between 0-20 characters.");
             toolTip1.SetToolTip(txtPrice, "The Price cannot be 0.");
             toolTip1.SetToolTip(cbbType, "Must choose one of the types.");
